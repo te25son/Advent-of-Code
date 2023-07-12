@@ -1,5 +1,5 @@
 pub fn day_one() {
-    let result = include_str!("../inputs/one.txt")
+    let result = include_str!("../inputs/day_01.txt")
         .split("\n\n")
         .map(|collection| {
             collection
